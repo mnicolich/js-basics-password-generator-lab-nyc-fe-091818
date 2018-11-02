@@ -9,7 +9,7 @@ window.addEventListener("load", () => {
     console.log(passwordLength)
     
     for (let i = 0; i < passwordLength; i++) {
-      
+      const randomLowerCaseIndex = Math.round(Math.random() *lowerCaseLetters.length) password = password + lowerCaseLetters[randomLowerCaseIndex] if (password.length === passwordLength) {
     }
   }
   
