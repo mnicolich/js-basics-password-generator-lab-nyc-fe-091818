@@ -6,6 +6,11 @@ window.addEventListener("load", () => {
     event.preventDefault()
     const input = document.querySelector('input')
     const passwordLength = input.value
+    console.log(passwordLength)
+    
+    for (let i = 0; i < passwordLength; i++) {
+      
+    }
   }
   
   
