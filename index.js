@@ -4,6 +4,8 @@ window.addEventListener("load", () => {
   //1. figure out how long our password should break
   document.addEventListener('submit', (event) => {
     event.preventDefault()
+    const input = document.querySelector('input')
+    const passwordLength = input.value
   }
   
   
